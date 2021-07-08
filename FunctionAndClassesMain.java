@@ -24,7 +24,8 @@ public class FunctionAndClassesMain {
 // On créé une classe voiture
 class Voiture {
     // On déclare ses attributs par principe en privée.
-    private String marque;
+    // Un attribut peut être une autre classe , class Roue => private Roue avantGauche dans Voiture
+    private String marque;   //A l'exterieur de la classe on peut pas appeler les attributs (private)
     private String couleur;
     private int age;
 
