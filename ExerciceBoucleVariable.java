@@ -13,7 +13,8 @@ public class ExerciceBoucleVariable {
         // exercice5();
         //exercice6();
         //exercice7();
-        exercice8();
+        //exercice8();
+        exercice9();
     }
 
     public static void exercice1() {
@@ -105,7 +106,7 @@ public class ExerciceBoucleVariable {
 
     }
 
-    public static void exercice8() {
+ /*   public static void exercice8() {
         int i =0;
         int j=0;
         System.out.println("Donnez moi un mot");
@@ -118,6 +119,29 @@ public class ExerciceBoucleVariable {
         for(char temp : tableau1){
             System.out.println(temp);
             Array
+        }
+    }
+}*/
+
+    public static void exercice9() {
+
+        System.out.println("Donnez moi un nombre");
+        Scanner scanner = new Scanner(System.in);
+        int nombre = scanner.nextInt();
+        int nombre2;
+        int i = 0;
+        int tmp;
+
+        while (nombre =!0)
+        {
+            tmp++;
+
+            for (i = 0; i <)
+
+                nombre2 = nombre % 10;
+            System.out.println(nombre2); //Premier chiffre
+            System.out.println(nombre - nombre2);
+
         }
     }
 }
